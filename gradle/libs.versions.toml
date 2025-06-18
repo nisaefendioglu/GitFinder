@@ -1,7 +1,9 @@
 [versions]
 agp = "8.5.2"
+coreTesting = "2.2.0"
 glide = "4.16.0"
 kotlin = "1.9.21"
+kotlinxCoroutinesTest = "1.9.0"
 ksp = "1.9.21-1.0.16"
 androidx-navigation = "2.8.5"
 coreKtx = "1.12.0"
@@ -9,6 +11,7 @@ appcompat = "1.6.1"
 material = "1.10.0"
 constraintlayout = "2.1.4"
 activity = "1.8.0"
+mockitoKotlin = "5.1.0"
 navigation = "2.7.5"
 retrofit = "2.9.0"
 okhttpLoggingInterceptor = "4.11.0"
@@ -18,18 +21,23 @@ room = "2.6.1"
 junit = "4.13.2"
 androidxJunit = "1.1.5"
 espressoCore = "3.5.1"
+turbine = "1.1.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "room" }
 compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
 androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "activity" } # activity ile aynı versiyon genellikle
 androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockitoKotlin" }
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
 okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttpLoggingInterceptor" }
@@ -44,6 +52,7 @@ androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview"
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
