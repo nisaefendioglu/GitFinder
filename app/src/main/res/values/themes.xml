@@ -2,8 +2,10 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.GitFinder" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+       <item name="colorPrimary">@color/black</item>
     </style>
-
+    <style name="Theme.BottomNavigationView.Active" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/gray</item>
+    </style>
     <style name="Theme.GitFinder" parent="Base.Theme.GitFinder" />
 </resources>

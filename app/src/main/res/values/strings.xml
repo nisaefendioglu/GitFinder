@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">GitFinder</string>
+    <string name="github_username">GitHub Username</string>
+    <string name="search_user">Search User</string>
+    <string name="an_error_occurred_please_try_again">An error occurred. Please try again.</string>
+    <string name="view_github_profile">View GitHub Profile</string>
+    <string name="please_enter_a_username">Please Enter a Username.</string>
+    <string name="no_results_found">No results found.</string>
+    <string name="no_public_repos">No public repos</string>
+    <string name="no_bio_available">No bio available</string>
+    <string name="followers_count">Followers: %1$d</string>
+    <string name="following_count">Following: %1$d</string>
+    <string name="public_repos_count">Public Repos: %1$d</string>
+    <string name="default_error_message">An error occurred</string>
+    <string name="favorites">Favorites</string>
+    <string name="search">Search</string>
 </resources>
