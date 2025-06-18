@@ -2,6 +2,9 @@
 
 GitFinder is an Android application built to explore GitHub users and their repositories. It allows users to search for GitHub profiles, view detailed information, browse their repositories, and manage a list of favorite users locally.
 
+## Screens 
+<img width="1568" alt="Screenshot 2025-06-18 at 8 40 48 PM" src="https://github.com/user-attachments/assets/7a2d284c-c152-4378-a4bf-22e34ee9e8dd" />
+
 ## Features
 
   * **User Search:** Quickly find GitHub users by their username.
@@ -38,21 +41,6 @@ This project leverages modern Android development best practices and a variety o
   * **Instrumented Tests:**
       * Instrumented tests are written for the **Room DAO (Data Access Object)** layer to validate persistence operations (insert, delete, query) against an in-memory database. These tests run on an Android device or emulator, ensuring real-world database interactions are correct.
       * `androidx.room.testing` and `androidx.arch.core:core-testing` are utilized for robust Room testing.
-
-
-## Testing Strategy
-
-The application adopts a comprehensive testing strategy to ensure reliability and maintainability:
-
-  * **Unit Tests:**
-      * Extensive unit tests are implemented for **ViewModels** and **Use Cases** to verify business logic, state transformations, and interactions with mocked dependencies.
-      * Key libraries used for unit testing include `JUnit`, `Mockito-Kotlin`, `kotlinx-coroutines-test`, and `Turbine` (for `Flow` testing).
-  * **Instrumented Tests:**
-      * Instrumented tests are written for the **Room DAO (Data Access Object)** layer to validate persistence operations (insert, delete, query) against an in-memory database. These tests run on an Android device or emulator, ensuring real-world database interactions are correct.
-      * `androidx.room.testing` and `androidx.arch.core:core-testing` are utilized for robust Room testing.
-
-## Screens 
-<img width="1568" alt="Screenshot 2025-06-18 at 8 40 48 PM" src="https://github.com/user-attachments/assets/7a2d284c-c152-4378-a4bf-22e34ee9e8dd" />
 
 ## Setup and Installation
 
